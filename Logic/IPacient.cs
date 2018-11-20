@@ -8,6 +8,6 @@ namespace Logic
 {
     public class IPacient
     {
-
+        
     }
 }
