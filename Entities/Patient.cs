@@ -20,15 +20,5 @@ namespace Entities
 
     }
 
-    public class ActiveMedication
-    {
-    }
-
-    public class TestHistory
-    {
-    }
-
-    public class ConsultationRecord
-    {
-    }
+  
 }

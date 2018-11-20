@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActiveMedication.cs" />
+    <Compile Include="ConsultationRecord.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestHistory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
