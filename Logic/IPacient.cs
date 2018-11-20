@@ -8,6 +8,7 @@ namespace Logic
 {
     public interface IPacient
     {
-
+        List<IPacient> GetPacients();
+        IPacient GetPacientById(int id);
     }
 }
