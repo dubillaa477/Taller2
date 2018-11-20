@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    public interface IPacient
+    public class IPatient
     {
-        List<IPacient> GetPacients();
-        IPacient GetPacientById(int id);
     }
 }
