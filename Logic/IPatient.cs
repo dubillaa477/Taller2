@@ -14,5 +14,7 @@ namespace Logic
         List<ConsultationRecord> GetConsulRecord(int patientId);
         List<ActiveMedication> GetActiveMedications(int patientId);
         List<TestHistory> GetTestHistory(int PatientId);
+        Patient ModifyPatient(string name, string lastname, DateTime birthDay, string tipoSangre);
+
     }
 }
