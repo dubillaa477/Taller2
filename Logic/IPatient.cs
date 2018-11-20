@@ -9,7 +9,7 @@ namespace Logic
 {
     public interface IPatient
     {
-        List<Patient> GetUserPatients(string UsernameFilter);
-        List<Patient> GetPatients(string NameFilter);
+        List<Patient> GetUserPatients(string username);
+        List<Patient> GetPatients(string nameFilter, string username);
     }
 }
