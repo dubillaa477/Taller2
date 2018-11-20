@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    public class IPacient
+    public interface IPacient
     {
-        
+
     }
 }
