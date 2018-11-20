@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    interface IUser
+    public interface IUser
     {
-
+        string Login(string username, string password);
     }
 }
